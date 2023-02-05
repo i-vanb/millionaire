@@ -1,0 +1,38 @@
+.Score{
+    padding: 20px;
+}
+
+.ScoreRow{
+    color: chocolate;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-bottom: 5px;
+    font-size: 20px;
+    gap: 30px;
+}
+.ScoreRow div:first-child{
+    text-align: end;
+    position: relative;
+}
+.fixed{
+    color: #fff;
+}
+.current{
+    color: #fede5c;
+}
+.past{
+    color: #04AA6D;
+}
+
+.past div:first-child:after{
+    content: '';
+    height: 10px;
+    width: 10px;
+    background-color: #04AA6D;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: calc(50% - 5px);
+    right: -20px;
+
+}

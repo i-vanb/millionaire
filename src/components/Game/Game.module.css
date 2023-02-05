@@ -1,0 +1,44 @@
+.Game{
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    /*gap: 20px;*/
+    width: 100vw;
+    height: 100vh;
+}
+.Info{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    overflow-y: scroll;
+}
+.Menu{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+}
+.Menu button{
+    border-radius: 50%;
+}
+.DialogHeader{
+    color: #fff;
+}
+.DialogControl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.Info{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+}
+.Info::-webkit-scrollbar {
+    width: 5px;
+}

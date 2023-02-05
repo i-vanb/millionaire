@@ -1,0 +1,34 @@
+.button{
+    outline: none;
+    border: 6px #0562FD solid;
+    background-color: #040231;
+    color: #fff;
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: 20px;
+    min-width: 200px;
+    /*box-shadow: inset 0 0 10px 2px #fede5c;*/
+
+}
+
+.button:hover{
+    box-shadow: inset 0 0 10px 0 #fede5c;
+    color: #fede5c;
+}
+.button:disabled:hover{
+    box-shadow: unset;
+    color: #fff;
+    cursor: default;
+}
+
+.buttonIcon{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+.buttonIcon:hover svg{
+    fill: #fff;
+}

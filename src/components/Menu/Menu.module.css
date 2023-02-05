@@ -1,0 +1,40 @@
+.Menu {
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    text-align: center;
+    border: 6px #0562FD solid;
+    background-color: #040231;
+    gap: 30px;
+    border-radius: 15px;
+    height: 20vh;
+    width: 30vw;
+    justify-content: center;
+}
+.Menu label{
+    display: block;
+    margin-bottom: 10px;
+}
+.Menu input{
+    display: block;
+    max-width: 70px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+}
+.control{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.control a {
+    color: #0562FD;
+    transition: color .2s;
+}
+.control a:hover {
+    color: #fede5c;
+}
+
